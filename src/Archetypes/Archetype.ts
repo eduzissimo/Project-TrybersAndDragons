@@ -5,10 +5,10 @@ export default abstract class Archetypes {
   readonly special: number;
   readonly cost: number;
 
-  constructor(name: string, special: number, cost: number) {
+  constructor(name: string) {
     this.name = name;
-    this.special = special;
-    this.cost = cost;
+    this.special = 0;
+    this.cost = 0;
   }
 
   get getName(): string {
