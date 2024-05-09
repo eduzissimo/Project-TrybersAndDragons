@@ -1,20 +1,19 @@
 import Archetype from './Archetype';
 import { EnergyType } from '../Energy';
 
-export default class Necromancer extends Archetype {
-  private _energy: EnergyType = 'mana';
-  private static _createdArchetypesInstances = 0;
+class Necromancer extends Archetype {
+  private static _necroInstances = 0;
 
-  constructor(name: string) {
+  constructor(name: string, private _energyType: EnergyType = 'mana') {
     super(name);
-    Necromancer._createdArchetypesInstances += 1;
+    Necromancer._necroInstances += 1;
   }
 
-  static createdArchetypesInstances(): number {
-    return Necromancer._createdArchetypesInstances;
-  }
+  static createdArchetypeInstances = (): number => Necromancer._necroInstances;
 
   get energyType(): EnergyType {
-    return this._energy;
+    return this._energyType;
   }
 }
+
+export default Necromancer;
