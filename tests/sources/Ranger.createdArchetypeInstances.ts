@@ -1,4 +1,4 @@
-import { Ranger } from '../../src/Archetypes';
+import { Ranger } from '../../src/Archetypes/Archetypes';
 
 const result = () => {
   const r = [];

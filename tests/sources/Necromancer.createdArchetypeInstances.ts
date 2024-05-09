@@ -1,4 +1,4 @@
-import { Necromancer } from '../../src/Archetypes';
+import { Necromancer } from '../../src/Archetypes/Archetypes';
 
 const result = () => {
   const r = [];

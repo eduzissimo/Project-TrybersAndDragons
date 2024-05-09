@@ -1,3 +1,3 @@
-import Archetype from '../../src/Archetypes';
+import Archetype from '../../src/Archetypes/Archetypes';
 
 class ArchetypeChild extends Archetype { }

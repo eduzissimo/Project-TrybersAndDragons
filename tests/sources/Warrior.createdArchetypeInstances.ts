@@ -1,4 +1,4 @@
-import { Warrior } from '../../src/Archetypes';
+import { Warrior } from '../../src/Archetypes/Archetypes';
 
 const result = () => {
   const r = [];
