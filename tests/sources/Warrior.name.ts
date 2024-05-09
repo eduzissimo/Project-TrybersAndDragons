@@ -1,3 +1,3 @@
-import * as Archetypes from '../../src/Archetypes/Archetypes';
+import * as Archetypes from '../../src/Archetypes/Archetype';
 const warrior = new Archetypes.Warrior('Ramon');
 warrior.name

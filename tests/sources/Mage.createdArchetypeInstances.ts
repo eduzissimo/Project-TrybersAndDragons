@@ -1,4 +1,4 @@
-import { Mage } from '../../src/Archetypes/Archetypes';
+import { Mage } from '../../src/Archetypes/Archetype';
 
 const result = () => {
   const r = [];
